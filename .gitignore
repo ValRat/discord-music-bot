@@ -1,5 +1,6 @@
 # Node
-node_modules
+# We're making changes to the underlying files now to debug some issues
+# node_modules
 .env
 package-lock.json
 
