@@ -16,6 +16,7 @@ const client = new Client({
 });
 
 client.player = new Player(client);
+client.player.on("debug", (msg) => console.log(`Player debug: ${msg}`))
 registerPlayerEvents(client.player);
 
 const creator = new SlashCreator({
